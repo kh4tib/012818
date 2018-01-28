@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+html {
+    background-color:#161616;
+}
+
+.section {
+        height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    width: 60%;
+    height: 32rem;
+    position: relative;
+    margin:0 auto;
+    top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #161616;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); 
+}
+
+.main p {
+    color:white;
+}
+
+.main .main-button button {
+    margin-top:1rem;
+    width:12rem;
+    height:2rem;
+    background-color: #ffffff;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+
+}
+
+.main-background h1 {
+    font-size:56rem;
+    position :absolute;
+    z-index: -2;
+    color:white;
+    left:-18rem;
+    top:-48rem;
+    }
